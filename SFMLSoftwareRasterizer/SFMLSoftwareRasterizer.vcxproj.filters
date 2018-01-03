@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Renderer.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\AABB2.h">
+      <Filter>Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Matrix.h">
+      <Filter>Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Vec.h">
+      <Filter>Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Vert.h">
+      <Filter>Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Transform\Transform.h">
+      <Filter>Camera\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Transform\Transformble.h">
+      <Filter>Camera\Transform</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Utilities\AABB2.inl">
+      <Filter>Utilites</Filter>
+    </None>
+    <None Include="Utilities\Vec.inl">
+      <Filter>Utilites</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Renderer.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Matrix.cpp">
+      <Filter>Utilites</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Vert.cpp">
+      <Filter>Utilites</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Transform\Transform.cpp">
+      <Filter>Camera\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Transform\Transformble.cpp">
+      <Filter>Camera\Transform</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{606f1816-cf8c-42fc-8742-adf143134884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilites">
+      <UniqueIdentifier>{c1e068a6-f5ca-4fda-a5ce-d8cca1d17adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera\Transform">
+      <UniqueIdentifier>{75eda171-3b86-4148-b61d-3f64f8ce0555}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
